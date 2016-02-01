@@ -33,7 +33,7 @@ function range(){
 		}
 	}
 	else{
-		console.log("Sorry! Too many arguments.");
+		console.log("Sorry! Too few or too many arguments.");
 		return;
 	}
 	
