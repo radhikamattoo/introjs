@@ -70,7 +70,7 @@ function calculateHand(cardArray){
 
 function determineWinner(playerTotal, computerTotal){
 	if(playerTotal === computerTotal){
-		return "Tie";
+		return "\nTie\n";
 		
 	}
 		

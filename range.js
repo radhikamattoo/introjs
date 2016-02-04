@@ -3,7 +3,7 @@ function range(){
 	var start = 0; 
 	var end = 0; 
 	var increment = 1;
-	 
+	//parse arguments
 	if(arguments.length == 1){
 		end = arguments[0];
 		
@@ -37,6 +37,8 @@ function range(){
 		return;
 	}
 	
+	
+	//now done with parsing, use info to set up array
 	if(increment > 0){
 		for(i = start; i < end; i+= increment){
 			output.push(i);

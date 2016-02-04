@@ -43,7 +43,9 @@ function game(deck){
 			if(letter === "h"){
 				player[playerCount++] = deck[deckCount++];
 			}
-						if(cardUtils.calculateHand(player) > 21){
+			
+			//break check 
+			if(cardUtils.calculateHand(player) > 21){
 				break; 
 			}
 		}

@@ -8,7 +8,7 @@ function arrayToList(array){
 }
 
 function listToArray(list){
-//takes a nested list and creates an array from it 
+	//takes a nested list and creates an array from it 
 	var returnArray = [];
 	for(var node = list; node; node = node.rest){
 		returnArray.push(node.value);
